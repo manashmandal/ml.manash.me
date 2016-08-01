@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'notobold';
+    src: url('fonts/NotoSansBengali-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.retro 
+{
+color: rgb(255, 255, 255);
+font-size: 57px;
+background-color: rgb(85, 147, 194);
+text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 6px 1px, rgba(0, 0, 0, 0.0980392) 0px 0px 5px, rgba(0, 0, 0, 0.298039) 0px 1px 3px, rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.0980392) 0px 20px 20px;
+}
+
+
+h2 {
+  width: 100%;
+  font-family: notobold;
+  border-bottom: solid 4px #00796B;
+}
+
+h3 {
+    color: #512DA8;
+    border-bottom: solid 1px #536DFE;
+}
+
+h4 {
+    color: #795548;
+}
+
+.equation {
+    font-size: 150%;
+}
