@@ -1,5 +1,10 @@
 {
-    "plugins": ["mathjax", "todo"],
+    "plugins": ["disqus","mathjax", "todo"],
+    "pluginsConfig":{
+        "disqus" : {
+            "shortName" : "ml-manash-me"
+        }
+    },
     "styles": {
         "website": "styles/website.css"
     }
