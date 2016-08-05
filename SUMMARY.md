@@ -17,3 +17,4 @@
 * [লিনিয়ার রিগ্রেশন](#)
    * [লিনিয়ার রিগ্রেশন প্রাথমিক আলোচনা](linear_regression/linear_regression_intro.md)
    * [লিনিয়ার রিগ্রেশন পর্ব-২ ও গ্রেডিয়েন্ট ডিসেন্ট](linear_regression/linear_regression_2.md)
+   * [মাল্টিভ্যারিয়েবল লিনিয়ার রিগ্রেশন](linear_regression/multivar_linear_regression.md)
