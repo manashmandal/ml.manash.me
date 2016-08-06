@@ -197,7 +197,7 @@ $$\theta_{j} := \theta_{j} - \alpha \frac{\delta}{\delta \theta_{j}} J(\theta_{j
 
 $$
 
-J(\theta_{j}) = \sum_{i=1}^{m} \left( h_{\theta} (x^{(i)} - y^{(i)}) \right)
+\frac{\delta}{\delta \theta} J(\theta_{j}) = \frac{1}{m} \sum_{i=1}^{m} \left( h_{\theta} (x^{(i)} - y^{(i)}) \right)
 
 $$
 
