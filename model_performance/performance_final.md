@@ -202,7 +202,7 @@ $$ Y = ax^{3} + bx $$
 
 আমরা এর লার্নিং কন্ট্রোল করার জন্য, (x * lambda) অংশ রেজাল্ট থেকে বিয়োগ দিয়ে `Regularized Model` তৈরি করতে পারি,
 
-$$ Y = ax^{3} + bx - \lambdax $$
+$$ Y = ax^{3} + bx - \lambda x $$
 
 
 এখানে,$$ \lambda $$ ই হল Regularization Hyperparameter।
