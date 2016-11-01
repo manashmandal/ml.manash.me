@@ -20,4 +20,5 @@
    * [মাল্টিভ্যারিয়েবল লিনিয়ার রিগ্রেশন](linear_regression/multivar_linear_regression.md)
 * [মিনি প্রজেক্ট](#)
    * [রিভিউ টেক্সট সেন্টিমেন্ট অ্যানালাইজার](review_text_sentiment_analyzer.md)
+      * [প্রথম পর্ব](sentiment_analyzer_first_episode.md)
       
