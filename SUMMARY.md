@@ -18,7 +18,4 @@
    * [লিনিয়ার রিগ্রেশন প্রাথমিক আলোচনা](linear_regression/linear_regression_intro.md)
    * [লিনিয়ার রিগ্রেশন পর্ব-২ ও গ্রেডিয়েন্ট ডিসেন্ট](linear_regression/linear_regression_2.md)
    * [মাল্টিভ্যারিয়েবল লিনিয়ার রিগ্রেশন](linear_regression/multivar_linear_regression.md)
-* [মিনি প্রজেক্ট](#)
-   * [রিভিউ টেক্সট সেন্টিমেন্ট অ্যানালাইজার](mini-project/sentiment-analyzer/review_text_sentiment_analyzer.md)
-   * [প্রথম পর্ব](mini-project/sentiment-analyzer/sentiment_analyzer_first_episode.md)
       
