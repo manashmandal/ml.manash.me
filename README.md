@@ -138,9 +138,9 @@
 
 ### [মানস](http://mandal.manash.me)
 
-#### [ফেসবুক](http//fb.manash.me) | [ইমেইল](mailto:manashmndl@gmail.com) | [গিটহাব](http://github.manash.me) 
+#### [ফেসবুক](http://fb.manash.me) | [ইমেইল](mailto:manashmndl@gmail.com) | [গিটহাব](http://github.manash.me) 
 
-> সম্পূর্ণ বিনামূল্যে বইটি যে কেউ পড়তে পারেন ও কন্টেন্ট শেয়ার করতে পারেন কিন্তু মূল কন্টেন্ট অবিকৃত রেখে ও ক্রেডিট দিয়ে।  
+> সম্পূর্ণ বিনামূল্যে বইটি যে কেউ পড়তে পারেন ও কন্টেন্ট শেয়ার করতে পারেন কিন্তু মূল কন্টেন্ট অবিকৃত রেখে এবং পর্যাপ্ত ক্রেডিট দিয়ে। কমার্শিয়াল ব্যবহার সম্পূর্ণ নিষিদ্ধ। 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
