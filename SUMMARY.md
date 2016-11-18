@@ -19,6 +19,8 @@
    * [লিনিয়ার রিগ্রেশন পর্ব-২ ও গ্রেডিয়েন্ট ডিসেন্ট](linear_regression/linear_regression_2.md)
    * [মাল্টিভ্যারিয়েবল লিনিয়ার রিগ্রেশন](linear_regression/multivar_linear_regression.md)
    * [প্র্যাক্টিক্যাল লিনিয়ার রিগ্রেশন](linear_regression/code_linear_regression.md)
+* পরিশিষ্ট
+   * [Numpy পরিচিতি](supplements/primer_numpy.md)
 * মিনি প্রজেক্ট
    * [মুভি জনরা ডিটেকশন](mini-project/movie-genre-detection/movie_genre_detection.md)
       * [পর্ব-১](mini-project/movie-genre-detection/episode01.md)
