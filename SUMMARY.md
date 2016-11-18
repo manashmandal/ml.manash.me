@@ -20,7 +20,7 @@
    * [মাল্টিভ্যারিয়েবল লিনিয়ার রিগ্রেশন](linear_regression/multivar_linear_regression.md)
    * [প্র্যাক্টিক্যাল লিনিয়ার রিগ্রেশন](linear_regression/code_linear_regression.md)
 * পরিশিষ্ট
-   * [Numpy পরিচিতি](supplements/primer_numpy.md)
+   * [Numpy পরিচিতি](supplements/numpy_primer.md)
 * মিনি প্রজেক্ট
    * [মুভি জনরা ডিটেকশন](mini-project/movie-genre-detection/movie_genre_detection.md)
       * [পর্ব-১](mini-project/movie-genre-detection/episode01.md)
