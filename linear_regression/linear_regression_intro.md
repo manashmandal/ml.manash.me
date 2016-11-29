@@ -267,7 +267,7 @@ Y = "output" variable / "target" value
  
  Cost Function এর সূত্র হল, 
  
- $$ J (\theta_{0}, \theta_{1}) =  \frac{1}{2m} \sum_{i=1}^{m} \left ( h_{0} ( X^{(i)}) - Y^{(i)} \right )^{2}$$
+ $$ J (\theta_{0}, \theta_{1}) = \frac{1}{2m} \sum_{i=1}^{m} \left ( h_{\theta} ( X^{(i)}) - Y^{(i)} \right )^{2}$$
  
  মনে আছে তো কোনটা কি? না মনে থাকলে শুরু থেকে পড়ে নিন। আমি এখানে Cost Function হিসেবে Ordinary Least Square মেথড অ্যাপ্লাই করেছি। Cost Function যে শুধু এটাই হবে তা নয়। তবে সাধারণত এইটা ব্যবহার করা হয়।
  
