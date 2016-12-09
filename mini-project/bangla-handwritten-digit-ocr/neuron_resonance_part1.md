@@ -326,7 +326,7 @@ print(one_img.shape)
 
 ```python
 one_img_gray = rgb2gray(one_img)
-print(one_img_gray)
+print(one_img_gray.shape)
 ```
 
 #### আউটপুট
