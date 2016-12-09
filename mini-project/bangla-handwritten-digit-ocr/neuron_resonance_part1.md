@@ -1,4 +1,4 @@
-#কৃত্রিম নিউরনে অনুরণন: পর্ব - ১
+# কৃ্ত্রিম নিউরনে অনুরণন: পর্ব - ১
 
 ফেলুদা হাতের বইটা সশব্দে বন্ধ করে টক্ টক্ দুটো তুড়ি মেরে বিরাট হাই তুলে বলল, 'রোবট'।
 
@@ -162,7 +162,7 @@
 
 'কী চাই?'
 
-ফেলুদা বলল, 'আঁমি জয়নারায়ন বাগচি বলচি। আমিই আপনাকে ফোন করেছিলাম আমার ভাইপোর ব্যাপারে।'
+ফেলুদা বলল, 'আঁমি জয়নারায়ণ বাগচি বলচি। আমিই আপনাকে ফোন করেছিলাম আমার ভাইপোর ব্যাপারে।'
 
 'আচ্ছা, আপনার ভাইপো ডিজিটাল ইমেজ প্রসেসিং শিখতে চায়, তাইতো?'
 
@@ -184,7 +184,7 @@
 
 ***
 
-তিনঘণ্টা ক্লাস করার পর মাথাটা ভোঁ ভোঁ করছিল। মাথামুণ্ডু কিছুই বুঝছি না যে, ফেলুদা কেন আমাকে এই ধরণের কোর্স করিয়ে নিচ্ছে। অবশ্য জিনিসটা বেশ ইন্টারেস্টিং। ভাবলাম বাড়ি ফিরেই জিনিসগুলো প্রয়োগ করে দেখব। 
+তিনঘণ্টা ক্লাশ করার পর মাথাটা ভোঁ ভোঁ করছিল। মাথামুণ্ডু কিছুই বুঝছি না যে, ফেলুদা কেন আমাকে এই ধরণের কোর্স করিয়ে নিচ্ছে। অবশ্য জিনিসটা বেশ ইন্টারেস্টিং। ভাবলাম বাড়ি ফিরেই জিনিসগুলো প্রয়োগ করে দেখব। 
 
 দোকান থেকে বের হয়ে দেখলাম, ফেলুদা হাসছে। বলল, 'তোর উপর অনেক প্রেশার গেল। আর নয়, যেতে যেতে সব বলছি। গাড়িতে ওঠ।'
 
@@ -194,25 +194,157 @@
 
 ***
 
-বাড়ি ফেরার পর ফেলুদা একটা SD Card Adapter ধরিয়ে দিয়ে বলল, 'নে এইখানে চিঠিপত্রের সকল নম্বরের ছবি তোলা আছে। তুই যা শিখেছিস তা অ্যাপ্লাই করে ডিজিটাল এডিট্যাবল অক্ষর বানাতে পারিস কিনা দ্যাখ। আমার যদ্দুর মনে হয়, এই নম্বরগুলোতেই রহস্যের চাবি লুকিয়ে আছে। কিন্তু এত এত নম্বর খাতা-কলমে বিশ্লেষণ করতে করতে আরেকটা খুন হয়ে যেতে পারে। তাই আমাদের আপাতত এমন একটি সিস্টেম বানাতে হবে যেটা ইমেজ থেকে এডিট্যাবল ডিজিটে রূপান্তর করতে পারে। এবং এই কাজটা আমি তোকে দিলাম।'
+বাড়ি ফেরার পর ফেলুদা একটা SD Card Adapter ধরিয়ে দিয়ে বলল, 'নে এইখানে চিঠিপত্রের সকল নম্বরের ছবি তোলা আছে। তুই যা শিখেছিস তা অ্যাপ্লাই করে ডিজিটাল এডিট্যাবল ডিজিট বানাতে পারিস কিনা দ্যাখ। আমার যদ্দুর মনে হয়, এই নম্বরগুলোতেই রহস্যের চাবি লুকিয়ে আছে। কিন্তু এত এত নম্বর খাতা-কলমে বিশ্লেষণ করতে করতে আরেকটা খুন হয়ে যেতে পারে। তাই আমাদের আপাতত এমন একটি সিস্টেম বানাতে হবে যেটা ইমেজ থেকে এডিট্যাবল ডিজিটে রূপান্তর করতে পারে। এবং এই কাজটা আমি তোকে দিলাম।'
 
 'আচ্ছা ফেলুদা, আমি চেষ্টা করে দেখছি।', বলে নিজের ঘরে আসলাম। বিছানায় শরীর এলিয়ে দিয়ে চিন্তা করতে থাকলাম, এটা কীভাবে সম্ভব? আমার নিজেরই বাজে হাতের লেখা দেখলে চিনতে অসুবিধা হয়, সেখানে এমন সিস্টেম কীভাবে বানাব? আচ্ছা বরং এক কাজ করি। ছবিগুলোর কী অবস্থা সেটা একটু দেখে নেই।
 
-কম্পিউটার চালু করে SD Card Adapter Reader দিয়ে কার্ডটা রিড করা শুরু করি। এবং কয়েকটা ইমেজ ওপেন করি।
+কম্পিউটার চালু করে SD Card Adapter Reader দিয়ে কার্ডটা রিড করা শুরু করি। ফোল্ডারে ঢুকে কয়েটা ইমেজ ওপেন করি।
 
-![images](http://i.imgur.com/UB4OHxI.png)![http://i.imgur.com/foc6V5g.png](http://i.imgur.com/foc6V5g.png) ![img](http://i.imgur.com/ZJlMK4p.png)![image](http://i.imgur.com/iBuRokz.png)
+![0](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00000.bmp)
+
+![1](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00001.bmp)
+
+![2](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00002.bmp)
+
+![3](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00003.bmp)
+
+![4](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00004.bmp)
+
+![5](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00005.bmp)
+
+![6](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00006.bmp)
+
+![7](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00007.bmp)
+
+![8](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00008.bmp)
+
+![9](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/bn00009.bmp)
 
 চিন্তার বিষয়! 
 
+ওপেন করা ফোল্ডারের একটা স্ক্রিনশট।
+
+![images](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/loadImage.png)
+
 >  তবে একদিক থেকে মুক্তি পেলাম। প্রতিটা ইমেজ একই আকারের অর্থাৎ $$ 32 \times 32  $$ । তাই এদের প্রসেস করতে সুবিধা হবে। নইলে আমার নিজের এই ছবিগুলোকে রিসাইজ করে নিতে হত। 
+>
+>  প্রতিটা ফাইলের শেষের ডিজিট বলে দিচ্ছে ইমেজটা কোন ডিজিটের। ফেলুদার আসলেই জবাব নেই। 
 
 **আচ্ছা একটা কাজ করা যায় না? প্রতিটা ১ এবং ০ তে গড়ে কতগুলো সাদা এবং কালো পিক্সেল আছে, সেগুলো গণনার ভিত্তিতে যদি এদের ভাগ করতে পারি তাহলে তো দুইটা সংখ্যার মধ্যে পার্থক্য ধরতে পারব!**
 
 আগেই একগাদা চিন্তা করার চেয়ে কাজে হাত দিয়ে তারপর চিন্তা করা আমার পক্ষে যুক্তিযুক্ত মনে হল, তাই Jupyter Notebook ওপেন করে কোড লেখা শুরু করলাম।
 
-```python
+### ইমেজ লোড করার কোড লেখা শুরু করি
 
+যেহেতু ইমেজ বারবার লোড করে পরীক্ষা করতে হবে, তাই ভাবলাম এটা করার জন্য একটা ফাংশন লিখি, যেটা কল করলে অটোমেটিক প্রয়োজনমাফিক ইমেজ লোড হবে। এই অংশটুকু আমার পক্ষে করা অত্যন্ত সহজ। 
+
+```python
+from scipy.ndimage import imread
+import matplotlib.pyplot as plt
+from skimage.color import rgb2gray
+import numpy as np
+
+image_path = "./BengaliBMP/"
+image_count = 6000
+%matplotlib inline
+images = [image_path + 'bn' + str(num).zfill(5) + '.bmp' for num in range(image_count)]
 ```
 
+**ফেলুদার দেওয়া ইমেজগুলো `RGB` ছিল অর্থাৎ `Red`, `Green`, `Blue` এই তিন চ্যানেলের সমষ্টি। এই রকম আরও অনেক চ্যানেল আছে, যেমন `CMYK`, `Grayscale`, `Binary` ইত্যাদি। আমরা যেভাবে ছবি দেখি কম্পিউটার সেভাবে দেখে না। ও শুধু চেনে নম্বর। `RGB` হল মৌলিক তিনটা রং, যা দিয়ে বাকি সব রং তৈরি করা যায়। তাই `RGB` চ্যানেলের ইমেজ সাধারণত রঙিন হয়।**
+
+![rgb](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/ThreeChannelArray.png)
+
+**এইভাবে কম্পিউটারে ম্যাট্রিক্স আকারে সাজানো থাকে `RGB` চ্যানেলের ইমেজ। আমরা একে বলতে পারি ৩ লেয়ারের 2D Matrix Array। `Grayscale` এবং `Binary` ইমেজের ক্ষেত্রে এই চ্যানেলের সংখ্যা হয় মাত্র একটা।**
+
+ফেলুদার দেয়া ছবিগুলোর সাইজ ছিল $$ 32 \times 32 $$  এবং `RGB`। এর মানে হচ্ছে একেকটা 2D Matrix অ্যারের Row এবং Column `32` টা করে। আমরা যদি এর শেপ লিখতে চাই তাহলে লিখব, $$ 32 \times 32 \times 3 $$ আকারে। 
+
+আমি এখন প্রোগ্রাম করে এই তিনটা চ্যানেল থেকে কমিয়ে একটা চ্যানেলে আনব বা গ্রেস্কেলে আনব। আমি যদি এই কনভার্সন না করি তাহলে আমার $$ 32 \times 32 \times 3 = 3072 $$ সংখ্যক পিক্সেল নিয়ে কাজ করতে হত, গ্রেস্কেলে নিয়ে আসলে আমার $$ 32\times 32 \times 1=1024 $$ টা পিক্সেল নিয়ে কাজ করতে হবে যা তুলনামূলক সহজ কাজ।
+
+এমন একটা ফাংশন এখন লিখতে হবে যেখানে আমি ডিজিট ইনপুট দিলে শুধু ঔ ডিজিটের ইমেজ প্যাথ দেয়। কিছুক্ষণ চিন্তা করে ঝটপট লিখে ফেললাম,
+
+```python
+def load_digit(digit, ip=image_path, ic=image_count):
+    return [ip + 'bn' + str(num).zfill(5) + '.bmp' for num in range(ic) if str(num)[-1] == str(digit)]
+```
+
+একটু টেস্ট করা যাক ঠিকঠাক কাজ করছে কিনা,
+
+```python
+ones = load_digit(1)
+for one in ones:
+    print(one)
+```
+
+আউটপুট আসল,
+
+```
+./BengaliBMP/bn00001.bmp
+./BengaliBMP/bn00011.bmp
+./BengaliBMP/bn00021.bmp
+./BengaliBMP/bn00031.bmp
+./BengaliBMP/bn00041.bmp
+./BengaliBMP/bn00051.bmp
+./BengaliBMP/bn00061.bmp
+./BengaliBMP/bn00071.bmp
+........................
+```
+
+**আমি ইমেজ লোড করার সাধারণ কোডের সাথে ছোট্ট একটি শর্ত জুড়ে দিলাম, যেটা কিনা চেক করে নম্বরের শেষের ডিজিট আর্গুমেন্টে পাস করা ডিজিটের সাথে মেলে কিনা, যদি মিলে যায় তাহলে আমি সেই পথটা রেখে দেব।**
+
+### ইমেজ শো করি
+
+ইমেজ ঠিকঠাক লোড হচ্ছে কিনা সেটা চেক করতে হবে,
+
+```python
+one_img = imread(ones[0])
+plt.imshow(one_img)
+```
+
+ঠিকঠাক লোড হল,
+
+![one](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/one_one.png)
 
 
+
+### ইমেজ চ্যানেল চেক করি
+
+এটা আসলেই `RGB` ইমেজ কিনা সেটা চেক করা দরকার,
+
+```python
+print(one_img.shape)
+```
+
+#### আউটপুট
+
+```
+(32, 32, 3)
+```
+
+হ্যাঁ যেটা বলছিলাম, সেটাই। 
+
+### ইমেজের চ্যানেল কনভার্ট করি ও চ্যানেল চেক করি
+
+```python
+one_img_gray = rgb2gray(one_img)
+print(one_img_gray)
+```
+
+#### আউটপুট
+
+```
+(32, 32)
+```
+
+এর মানে হল এর চ্যানেল একটাই। 
+
+ইমেজের পিক্সেল কাউন্ট করতে যাব এমন সময় ফেলুদা ডাক দিল, 'তোপসে খেতে চলে আয়'।
+
+কখন যে ক্ষিদে পেয়ে গিয়েছিল টেরও পাইনি। ফেলুদার ডাকে খেয়াল হল। ডাইনিং রুমে গিয়ে খেতে বসার সময় ফেলুদা বলল,
+
+'সিধু জ্যাঠার কাছে একবার যেতে হবে। ওপেনসোর্স অ্যাক্টিভিটি নিয়ে কোন সংবাদ আছে কিনা তার কাছে।'
+
+'কেন ফেলুদা?'
+
+'এত বক বক করিসনে তো। যেটা বলছি মন দিয়ে শোন.... '
+
+(চলবে...........)
