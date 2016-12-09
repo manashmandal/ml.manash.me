@@ -22,5 +22,5 @@
 * পরিশিষ্ট
    * [Numpy পরিচিতি](supplements/numpy_primer.md)
 * মিনি প্রজেক্ট
-   * [মুভি জনরা ডিটেকশন](mini-project/movie-genre-detection/movie_genre_detection.md)
-      * [পর্ব-১](mini-project/movie-genre-detection/episode01.md)
+   * [বাংলা হাতের লেখা সংখ্যা রিকগনিশন](mini-project/bangla-handwritten-digit-ocr/README.md)
+      * [কৃত্রিম নিউরনে অনুরণন পর্ব-১](mini-project/bangla-handwritten-digit-ocr/neuron_resonance_part1.md)
