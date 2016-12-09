@@ -93,6 +93,7 @@
 
 ![costfunc](http://i.imgur.com/AiIKd42.png)
 
+`Python 2 and 3`
 ```python
 J = [26936.0, 15151.5, 6734.0, 1683.5, 0, 1683.5, 6734.0]
 theta = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7]
