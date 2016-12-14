@@ -173,9 +173,16 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = split_test
 
 ### ডেটাসেটের স্প্লিটিং কি আসলেই ৭০-৩০ হয়েছে? চেক করা যাক
 
+`Python 3`
 ```python
 print("{0:0.2f}% in training set".format((len(X_train)/len(data_frame.index)) * 100))
 print("{0:0.2f}% in test set".format((len(X_test)/len(data_frame.index)) * 100))
+```
+
+`Python 2`
+```python
+print "{0:0.2f}% in training set".format((len(X_train)/len(data_frame.index)) * 100)
+print "{0:0.2f}% in test set".format((len(X_test)/len(data_frame.index)) * 100)
 ```
 
 আউটপুট:
@@ -192,6 +199,7 @@ print("{0:0.2f}% in test set".format((len(X_test)/len(data_frame.index)) * 100))
 
 অনেক সময় একটা কলামে হয়ত বিভিন্ন ধরণের মান আছে কিন্তু আপনি চেক করতে গিয়ে দেখলেন অনেকগুলা ভ্যালু 0 যেটা সম্ভব নয়। সেটা নিয়ে কীভাবে ডিল করবেন? একটা অ্যালগরিদম আছে যেটা দিয়ে ০ ভ্যালুগুলো রিপ্লেস করে একটা গড় ভ্যালু বসিয়ে কাজ করার মত স্টেটে নেওয়া যায়, সেটা দেখার আগে চলেন দেখি আমাদের কতগুলা ভ্যালু আসলে ০!
 
+`Python 3`
 ```python
 print("# rows in dataframe {0}".format(len(data_frame)))
 print("# rows missing glucose_conc: {0}".format(len(data_frame.loc[data_frame['glucose_conc'] == 0])))
@@ -201,6 +209,18 @@ print("# rows missing insulin: {0}".format(len(data_frame.loc[data_frame['insuli
 print("# rows missing bmi: {0}".format(len(data_frame.loc[data_frame['bmi'] == 0])))
 print("# rows missing diab_pred: {0}".format(len(data_frame.loc[data_frame['diab_pred'] == 0])))
 print("# rows missing age: {0}".format(len(data_frame.loc[data_frame['age'] == 0])))
+```
+
+`Python 2`
+```python
+print "# rows in dataframe {0}".format(len(data_frame))
+print "# rows missing glucose_conc: {0}".format(len(data_frame.loc[data_frame['glucose_conc'] == 0]))
+print "# rows missing diastolic_bp: {0}".format(len(data_frame.loc[data_frame['diastolic_bp'] == 0]))
+print "# rows missing thickness: {0}".format(len(data_frame.loc[data_frame['thickness'] == 0]))
+print "# rows missing insulin: {0}".format(len(data_frame.loc[data_frame['insulin'] == 0]))
+print "# rows missing bmi: {0}".format(len(data_frame.loc[data_frame['bmi'] == 0]))
+print "# rows missing diab_pred: {0}".format(len(data_frame.loc[data_frame['diab_pred'] == 0]))
+print "# rows missing age: {0}".format(len(data_frame.loc[data_frame['age'] == 0]))
 ```
 
 **আউটপুট:**
@@ -218,6 +238,7 @@ print("# rows missing age: {0}".format(len(data_frame.loc[data_frame['age'] == 0
 
 ০ ভ্যালু কে কোন ভ্যালু দিয়ে রিপ্লেস করার একটা টেকনিক হল `Imputation`। ইম্পুট করার জন্য সাইকিটে অলরেডি রেডিমেড কোড দেয়া আছে, আমরা আপতত সেটা ব্যবহার করে কাজ চালিয়ে নেব।
 
+`Python 2 & 3`
 ```python
 from sklearn.preprocessing import Imputer
 
@@ -239,6 +260,7 @@ X_test = fill_0.fit_transform(X_test)
 
 অবশেষে আমরা সেই ম্যাজিক্যাল ফাংশন কল করার মাধ্যমে মডেল ট্রেইন করব।
 
+`Python 2 & 3`
 ```python
 from sklearn.naive_bayes import GaussianNB
 
