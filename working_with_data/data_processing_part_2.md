@@ -379,10 +379,10 @@ Number of False Cases: 500.0 (65.10%)
 # Pythonic Way
 num_true = len(data_frame.loc[data_frame['diabetes'] == True])
 num_false = len(data_frame.loc[data_frame['diabetes'] == False])
-print "Number of True Cases: {0} ({1:2.2f}%)".format(num_true, (num_true / (num_true + num_false)) * 100))
-print "Number of False Cases: {0} ({1:2.2f}%)".format(num_false, (num_true / (num_true + num_false)) * 100))
+print "Number of True Cases: {0} ({1:2.2f}%)".format(num_true, ((float)num_true / (num_true + num_false)) * 100)
+print "Number of False Cases: {0} ({1:2.2f}%)".format(num_false, ((float)num_true / (num_true + num_false)) * 100)
 ```
-‍‍‍
+
 ### Data Rule #4
 
 > ডেটা ম্যানিপুলেশন হিস্ট্রি রাখবেন ও চেক করবেন নিয়মিত
