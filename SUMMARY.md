@@ -22,6 +22,6 @@
 * পরিশিষ্ট
    * [Numpy পরিচিতি](supplements/numpy_primer.md)
 * মিনি প্রজেক্ট
-   * [বাংলা হাতের লেখা সংখ্যা রিকগনিশন](mini-project/bangla-handwritten-digit-ocr/README.md)
+   * [হাতে লেখা বাংলা সংখ্যা রিকগনিশন](mini-project/bangla-handwritten-digit-ocr/README.md)
       * [কৃত্রিম নিউরনে অনুরণন পর্ব-১](mini-project/bangla-handwritten-digit-ocr/neuron_resonance_part1.md)
       * [কৃত্রিম নিউরনে অনুরণন পর্ব-২](mini-project/bangla-handwritten-digit-ocr/neuron_resonance_part2.md)
