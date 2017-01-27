@@ -361,4 +361,4 @@ plt.show()
 
 ![feluda_coin_toss](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/mini-project/bangla-handwritten-digit-ocr/images/coin_toss_feluda.png)
 
-**প্রথমে আমি যখন ১০ বার টস করলাম, দেখ যতটা না $Tail$ এসেছে তার তুলনায় $Head$ এর সংখ্যা বেশি (দিগুণেরও বেশি!)। কিন্তু আমি যখন ৫০০০ বার টস করলাম তখন দেখ পার্থক্য কতটা কমে আসছে? এখন কিন্তু বলা যেতেই পারে $Head:Tail = 50:50 (approx)$। $Central \space Limit \space Theorem$   বলে, স্যাম্পলের সংখ্যা যত বেশি হবে.. **
+**প্রথমে আমি যখন ১০ বার টস করলাম, দেখ যতটা না $Tail$ এসেছে তার তুলনায় $Head$ এর সংখ্যা বেশি (দিগুণেরও বেশি!)। কিন্তু আমি যখন ৫০০০ বার টস করলাম তখন দেখ পার্থক্য কতটা কমে আসছে? এখন কিন্তু বলা যেতেই পারে $Head:Tail = 50:50 (approx)$। $Central \space Limit \space Theorem$   বলে, স্যাম্পলের সংখ্যা যত বেশি হবে..**
