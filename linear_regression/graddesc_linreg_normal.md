@@ -93,13 +93,13 @@ $$
 
 ট্রান্সপোজের সাধারণ প্রোপার্টি ব্যবহার করে এটা লেখা যায় ,
 $$
+
+
 \begin{align}
+y_{train}^{T}X_{train}\theta &= y_{train}^{T} ((X_{train}\theta)^{T})^{T} \\
+&= (X_{train}\theta)^{T} (y_{train}^{T})^{T} \\
+&= \theta^{T} X_{train}^{T} y_{train}
 
-(y_{train}^{T} X_{train} ) \theta  &=  \left( (y_{train}^{T}X_{train})^{T} \right)^{T} ( \theta^{T})^{T} \\
-
-&= \theta^{T} (y^{T}_{train} X_{train})^{T} \\
-
-&= \theta^{T} X_{train}^{T}y_{train}
 
 \end{align}
 $$
