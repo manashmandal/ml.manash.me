@@ -20,6 +20,7 @@
    * [মাল্টিভ্যারিয়েবল লিনিয়ার রিগ্রেশন](linear_regression/multivar_linear_regression.md)
    * [প্র্যাক্টিক্যাল লিনিয়ার রিগ্রেশন](linear_regression/code_linear_regression.md)
    * [মাল্টিভ্যারিয়েবল লিনিয়ার রিগ্রেশন : গ্রেডিয়েন্ট ডিসেন্ট অ্যালগরিদমের রকমফের](linear_regression/practical_multivariable_linreg_gradient.md)
+   * [প্র্যাক্টিক্যাল মাল্টিভ্যারিয়েবল লিনিয়ার রিগ্রেশন : গ্রেডিয়েন্ট ডিসেন্টের নরমাল ফর্ম](linear_regression/graddesc_linreg_normal.md)
 * পরিশিষ্ট
    * [Numpy পরিচিতি](supplements/numpy_primer.md)
 * মিনি প্রজেক্ট
