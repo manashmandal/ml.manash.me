@@ -95,9 +95,11 @@ $$
 $$
 \begin{align}
 
-(y_{train}^{T} X_{train} ) \theta  &=  \theta^{T} \left( y^{T}_{train}X_{train} \right)^{T} \\
+(y_{train}^{T} X_{train} ) \theta  &=  \left( (y_{train}^{T}X)^{T} \right)^{T} ( \theta^{T})^{T} \\
 
-&= \theta^{T}X^{T}_{train}y_{train}
+&= \theta^{T} (y^{T}_{train} X_{train})^{T} \\
+
+&= \theta^{T} X_{train}^{T}y_{train}
 
 \end{align}
 $$
@@ -120,7 +122,7 @@ $$
 $$
 \implies  \theta = \left( X^{T}_{train}X_{train} \right)^{-1}X_{train}^{T}y_{train}
 $$
-তাহলে এটাই সেই গাণিতিক সূত্র, যার মাধ্যমে ইটারেশন ছাড়াই কিছু ম্যাট্রিক্স অপারেশনের মাধ্যমে থিটার কাঙ্ক্ষিত মান পাওয়া যাবে। এবং যাকে সবাই এক নামে **Normal Form of Gradient Descent** নামে চেনে! 
+তাহলে এটাই সেই গাণিতিক সূত্র, যার মাধ্যমে ইটারেশন ছাড়াই কিছু ম্যাট্রিক্স অপারেশনের মাধ্যমে থিটার কাঙ্ক্ষিত মান পাওয়া যাবে। এবং যাকে সবাই **Normal Form of Gradient Descent** নামে চেনে! 
 
 এই সূত্র এবার আমরা [একটা ডেটাসেট](https://github.com/manashmndl/ml.manash.me/tree/master/datasets/housing_prices) এর উপর অ্যাপ্লাই করব। 
 
