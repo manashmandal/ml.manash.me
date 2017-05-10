@@ -95,7 +95,7 @@ $$
 $$
 \begin{align}
 
-(y_{train}^{T} X_{train} ) \theta  &=  \left( (y_{train}^{T}X)^{T} \right)^{T} ( \theta^{T})^{T} \\
+(y_{train}^{T} X_{train} ) \theta  &=  \left( (y_{train}^{T}X_{train})^{T} \right)^{T} ( \theta^{T})^{T} \\
 
 &= \theta^{T} (y^{T}_{train} X_{train})^{T} \\
 
