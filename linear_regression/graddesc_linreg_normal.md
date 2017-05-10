@@ -103,14 +103,9 @@ $$
 y_{train}^{T}X_{train} = X^{T}_{train}y_{train}
 $$
 সুতরাং, 
+
 $$
-\begin{align}
-
-\implies &  \nabla_{\theta} (\theta^{T} X_{train}^{T} X_{train} \theta - \theta^{T}X^{T}_{train}y_{train} - \theta^{T}X^{T}_{train}y_{train} + y^{T}_{train}y_{train}) & = 0 \\
-
 \implies  & 2X_{train}^{T}X_{train}\theta  - 2X_{train}^{T}y_{train}  &= 0
-
-\end{align}
 $$
 
 
