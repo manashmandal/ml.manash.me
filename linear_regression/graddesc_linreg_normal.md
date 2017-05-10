@@ -98,7 +98,17 @@ $$
 \nabla_{\theta} (\theta^{T} X^{T}_{train} y_{train}) = X^{T}_{train}y_{train} 
 $$
 
-এবং ম্যাট্রিক্সের সূত্র অনুযায়ী,
+এবং এই ক্ষেত্রে,
+
+```python
+>>> X = np.array([[1, 2, 3], [4, 5, 6]])
+>>> y = np.array([1, 2])
+>>> X.T.dot(y)
+array([ 9, 12, 15])
+>>> y.T.dot(X)
+array([ 9, 12, 15])
+```
+
 $$
 y_{train}^{T}X_{train} = X^{T}_{train}y_{train}
 $$
