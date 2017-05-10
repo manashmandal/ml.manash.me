@@ -288,9 +288,12 @@ print("sklearn's prediction for row {} : {}".format(idx + 1, lr.predict(x[idx]).
 
 print("our model's prediction for row {} : {}".format(idx + 1, x[idx].dot(theta)))
 
+print("Real output of row {} : {}".format(idx + 1, y[idx]))
+
 # Output 
 # sklearn's prediction for row 1 : [ 70.]
 # our model's prediction for row 1 : 15.9375
+# Real output of row 1 : 70.0
 ```
 
 তারমানে কিছু একটা গণ্ডগোল হয়েছে! আগেরবার কিন্তু প্রেডিকশন ঠিকঠাক ছিল কিন্তু এই ডেটাসেট এর উপরে প্রেডিকশন এত খারাপ কেন? এই কেন এর উত্তর জানতে হলে আরেকটু পড়তে হবে। সবসময় ফরমুলা ঠিকঠাক কাজ করে এমন কোন কারণ নেই। 
