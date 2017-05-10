@@ -79,10 +79,6 @@ $$
 
 ম্যাট্রিক্সের সূত্রানুযায়ী, আমরা $$A^{2}$$ কে $$A^{T}A$$ আকারে লিখতে পারি। যেখানে $$A$$ একটি যেকোন ডাইমেনশনের ম্যাট্রিক্স ও $$A^{T}$$ বলতে $$A$$ ম্যাট্রিক্সের ট্রান্সপোজ বোঝায়। তাহলে উপরের কস্ট অংশ পরিবর্তন করে লেখা যায়, 
 $$
-\implies \nabla_{\theta} \left(  X_{train} \theta - y_{train }  \right)^{T} \left(  X_{train} \theta - y_{train }  \right) = 0 \\
-$$
-ম্যাট্রিক্সের ট্রান্সপোজ সূত্রানুযায়ী $$ (A + B)^{T} = A^{T} + B^{T}$$  এবং $$(AB)^{T} = B^{T}A^{T}$$ আবার উপরের এক্সপ্রেশন পরিবর্তন করে, 
-$$
 \begin{align}
 \implies & \nabla_{\theta} (\theta^{T}  X_{train}^{T}  - y_{train}^{T}) (X_{train}\theta - y_{train}) &= 0 \\ 
 
@@ -91,32 +87,32 @@ $$
 \end{align}
 $$
 
-ট্রান্সপোজের সাধারণ প্রোপার্টি ব্যবহার করে এটা লেখা যায় ,
+মাঝখানের টার্মের পার্শিয়াল ডেরিভেটিভ এরকম হবে ,
 $$
-
-
 \begin{align}
-y_{train}^{T}X_{train}\theta &= y_{train}^{T} ((X_{train}\theta)^{T})^{T} \\
-&= (X_{train}\theta)^{T} (y_{train}^{T})^{T} \\
-&= \theta^{T} X_{train}^{T} y_{train}
-
-
+\nabla_{\theta} (y_{train}^{T} X_{train} \theta) &= y^{T}_{train}X_{train} 
 \end{align}
 $$
 
-মান বসিয়ে, 
+$$
+\nabla_{\theta} (\theta^{T} X^{T}_{train} y_{train}) = X^{T}_{train}y_{train} 
+$$
 
+এবং ম্যাট্রিক্সের সূত্র অনুযায়ী,
+$$
+y_{train}^{T}X_{train} = X^{T}_{train}y_{train}
+$$
+সুতরাং, 
 $$
 \begin{align}
 
 \implies &  \nabla_{\theta} (\theta^{T} X_{train}^{T} X_{train} \theta - \theta^{T}X^{T}_{train}y_{train} - \theta^{T}X^{T}_{train}y_{train} + y^{T}_{train}y_{train}) & = 0 \\
 
-\implies & \nabla_{\theta} ( \theta^{T}X^{T}_{train}X_{train} \theta  - 2 \theta^{T}X^{T}_{train}y_{train} + y^{2}_{train}) & = 0 \\
-
 \implies  & 2X_{train}^{T}X_{train}\theta  - 2X_{train}^{T}y_{train}  &= 0
 
 \end{align}
 $$
+
 
 থিটার মান বের করতে হলে বাকি টার্ম ডানপাশে নিয়ে থিটার সাপেক্ষে এক্সপ্রেস করতে হবে, 
 $$
