@@ -80,6 +80,9 @@ $$
 ম্যাট্রিক্সের সূত্রানুযায়ী, আমরা $$A^{2}$$ কে $$A^{T}A$$ আকারে লিখতে পারি। যেখানে $$A$$ একটি যেকোন ডাইমেনশনের ম্যাট্রিক্স ও $$A^{T}$$ বলতে $$A$$ ম্যাট্রিক্সের ট্রান্সপোজ বোঝায়। তাহলে উপরের কস্ট অংশ পরিবর্তন করে লেখা যায়, 
 $$
 \begin{align}
+
+\implies & \nabla_{\theta} (X_{train}\theta - y_{train}) (X_{train}\theta - y_{train})^{T} &= 0 \\
+
 \implies & \nabla_{\theta} (\theta^{T}  X_{train}^{T}  - y_{train}^{T}) (X_{train}\theta - y_{train}) &= 0 \\ 
 
 \implies & \nabla_{\theta} ( \theta^{T} X_{train}^{T}X_{train}\theta -   y_{train}^{T} X_{train} \theta  - \theta^{T} X_{train}^{T}y_{train} - y_{train}^{T} y_{train} ) &= 0
