@@ -81,7 +81,7 @@ $$
 $$
 \begin{align}
 
-\implies & \nabla_{\theta} (X_{train}\theta - y_{train}) (X_{train}\theta - y_{train})^{T} &= 0 \\
+\implies & \nabla_{\theta} (X_{train}\theta - y_{train})^{T} (X_{train}\theta - y_{train}) &= 0 \\
 
 \implies & \nabla_{\theta} (\theta^{T}  X_{train}^{T}  - y_{train}^{T}) (X_{train}\theta - y_{train}) &= 0 \\ 
 
