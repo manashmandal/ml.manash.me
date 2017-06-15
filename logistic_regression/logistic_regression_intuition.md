@@ -229,7 +229,7 @@ def sigmoid(z):
 test_sig = np.arange(-10, 10, .1)
 sig_out = sigmoid(test_sig)
 
-plt.plot(sig, sig_out)
+plt.plot(test_sig, sig_out)
 plt.show()
 ```
 
