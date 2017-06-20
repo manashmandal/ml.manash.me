@@ -131,6 +131,20 @@ for i in range(5):
 আর দেরি না করে ঝটপট শুরু করলাম,
 
 ```python
+
+# Returns the pixel count by category
+def pixel_count(digit, index):
+    # Reading an image, squishing the multidimensional array into single dimension
+    data = rgb2gray(mpimg.imread(load_digit(digit)[index])).ravel()
+    ones =  [i for i in data if i == 1]
+    zeros = [i for i in data if i == 0]
+    value_dict = {
+        "white_count" : len(ones),
+        "black_count" : len(zeros)
+    }
+    return value_dict
+
+
 # Comparison between two digits [applying basic statistics]
 one_black_pixels = []
 one_white_pixels = []
