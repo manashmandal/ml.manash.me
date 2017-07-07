@@ -139,7 +139,10 @@
 
 ### [মানস](http://mandal.manash.me)
 
-####  [ওয়েবসাইট](http://mandal.manash.me) | [ফেসবুক](http://fb.manash.me) | [ইমেইল](mailto:manashmndl@gmail.com) | [গিটহাব](http://github.manash.me) 
+Embedded System Engineer
+AplombTech BD Ltd.
+
+####  [ওয়েবসাইট](http://www.manash.me) | [ব্লগ](https://blog.manash.me) | [ফেসবুক](https://www.facebook.com/manash.me) | [ইমেইল](mailto:manashmndl@gmail.com) | [গিটহাব](http://github.manash.me) 
 
 > সম্পূর্ণ বিনামূল্যে বইটি যে কেউ পড়তে পারেন ও কন্টেন্ট শেয়ার করতে পারেন কিন্তু মূল কন্টেন্ট অবিকৃত রেখে এবং পর্যাপ্ত ক্রেডিট দিয়ে। কমার্শিয়াল ব্যবহার সম্পূর্ণ নিষিদ্ধ। 
 
