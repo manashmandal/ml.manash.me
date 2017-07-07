@@ -140,6 +140,7 @@
 ### [মানস](http://mandal.manash.me)
 
 Embedded System Engineer
+
 AplombTech BD Ltd.
 
 ####  [ওয়েবসাইট](http://www.manash.me) | [ব্লগ](https://blog.manash.me) | [ফেসবুক](https://www.facebook.com/manash.me) | [ইমেইল](mailto:manashmndl@gmail.com) | [গিটহাব](http://github.manash.me) 
