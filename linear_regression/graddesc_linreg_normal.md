@@ -55,7 +55,7 @@ $$
 ![convex_func](http://i.imgur.com/MJwVUK1.png)
 
 * $$\theta_{0}, \theta_{1}, \theta_{2}$$ এর একটা নির্দিষ্ট মান আছে যার জন্য কস্ট ফাংশনের মান শূন্য
-* কোন ফাংশনের সর্বনিম্ন ও সর্বোচ্চ বিন্দুতে ঢাল শূন্য বা, ঔ বিন্দুতে ফাংশনের ডেরিভেটিভের মান শূন্য
+* কোন ফাংশনের সর্বনিম্ন ও সর্বোচ্চ বিন্দুতে ঢাল শূন্য বা, ওই বিন্দুতে ফাংশনের ডেরিভেটিভের মান শূন্য
 
 ![minpoint](https://raw.githubusercontent.com/manashmndl/ml.manash.me/7eccaed5cfaa1513bcb3a376aff20dce5907bd66/linear_regression/linreg_normal_img/minpoint.png)
 
