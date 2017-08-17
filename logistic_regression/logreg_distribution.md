@@ -283,7 +283,7 @@ N = 10
 
 head_counts = scipy.linspace(0,10,11) # Number of head counts
 
-pmf = scipy.stats.binom.pmf(x,N,theta)
+pmf = scipy.stats.binom.pmf(head_counts,N,theta)
 sns.barplot(head_counts, pmf)
 ```
 
