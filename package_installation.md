@@ -8,8 +8,8 @@
 
 ### উইন্ডোজ
 
-* [উইন্ডোজ ৩২ বিটের জন্য ডাউনলোড (335MB)](http://repo.continuum.io/archive/Anaconda2-4.0.0-Windows-x86_64.exe)
-* [উইন্ডোজ ৬৪ বিটের জন্য ডাউনলোড (281MB)](http://repo.continuum.io/archive/Anaconda2-4.0.0-Windows-x86.exe)
+* [উইন্ডোজ ৩২ বিটের জন্য ডাউনলোড (335MB)](http://repo.continuum.io/archive/Anaconda2-4.0.0-Windows-x86.exe)
+* [উইন্ডোজ ৬৪ বিটের জন্য ডাউনলোড (281MB)](http://repo.continuum.io/archive/Anaconda2-4.0.0-Windows-x86_64.exe)
 
 ডাউনলোড করে সাধারণ সফটওয়্যার ইন্সটল করেন যেভাবে সেভাবে ইন্সটল করলেই হবে। Start Menu তে গিয়ে `Spyder` সার্চ দিলেই IDE টি পেয়ে যাবেন। 
 
