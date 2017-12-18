@@ -33,6 +33,7 @@ bash Anaconda2-4.0.0-Linux-x68_64.sh
 `Spyder` IDE ওপেন করুন ও নিচের কোডটি রান করুন, যদি কাজ করে তাহলে বুঝতে হবে আপনার কম্পিউটার মেশিন লার্নিংয়ের জন্য প্রস্তুত।
 
 ```python
+import sklearn
 from sklearn.linear_model import LinearRegression
 print sklearn.__version__
 ```
