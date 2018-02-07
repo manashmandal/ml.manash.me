@@ -202,10 +202,12 @@ $$
 Multinomial Distribution এর লগ লাইকলিহুড এর নেগেটিভ-ই হল ক্যাটেগরিকাল ক্রসএন্ট্রপি লস ফাংশন। 
 
 বাইনোমিয়ালের মতই এর লগ লাইকলিহুড এরকম, [Ref: Machine Learning : Probabilistic Perspective by Murphy P-253]
+<div class="equation">
 $$
 \ell (W) = \log \prod_{i=1}^{N} \prod_{c=1}^{C}  \hat{y}_{ic}^{y_{ic}} \\ 
 \ell(W) = \sum_{i=1}^{N} \sum_{c=1}^{C} y_{ic} \log{  \hat{y_{ic}} }
 $$
+</div>
 যেখানে, 
 $$
 C = \text{Number of Classes} \\
