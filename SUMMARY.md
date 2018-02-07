@@ -26,6 +26,9 @@
    * [লজিস্টিক রিগ্রেশন : প্রব্যাবিলিটি, বার্নুলি ও বাইনোমিয়াল ডিস্ট্রিবিউশন](logistic_regression/logreg_distribution.md)
    * [লজিস্টিক রিগ্রেশন : এক্সপোনেনশিয়াল ফ্যামিলি ও জেনারালাইজড লিনিয়ার মডেল](logistic_regression/logistic_regression_ef_glm.md)
    * [প্র্যাক্টিক্যাল লজিস্টিক রিগ্রেশন : স্ক্র্যাচ থেকে মডেল তৈরি ও ডিজিট রিকগনাইজেশন](logistic_regression/practical_logistic_regression.md)
+* মাল্টিক্লাস রিগ্রেশন
+   * [মাল্টিক্লাস বা সফটম্যাক্স রিগ্রেশন: ডিজিট ক্লাসিফিকেশন](softmax_regression/softmax_regression.md)
+
 * পরিশিষ্ট
    * [Numpy পরিচিতি](supplements/numpy_primer.md)
 * মিনি প্রজেক্ট
