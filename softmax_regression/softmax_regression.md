@@ -216,17 +216,30 @@ y_{ic} = \text{Target} \\
 \hat{y}_{ic} = \text{Prediction}
 $$
 নেগেটিভ লগ লাইকলিহুড বা ক্রস-এন্ট্রপি লস, 
+
+<div class="equation">
+
 $$
 \mathcal{L(y, \hat{y})} = - \frac{1}{N}  \sum_{i=1}^{N} \sum_{c=1}^{C} y_{ic} \log{  \hat{y_{ic}} }
 $$
+
+</div>
 এখানে আবার, 
+
+<div class="equation">
 $$
 \hat{y} = P(y^{(i)} = k | x^{(i)} ; W) = \frac{ \exp(W^{(k)\top} x^{(i)})}{\sum_{j=1}^K \exp(W^{(j)\top} x^{(i)}) }
 $$
+</div>
+
 একত্রে, 
+
+<div class="equation">
 $$
 \mathcal{L(y, \hat{y})} = - \frac{1}{N}  \sum_{i=1}^{N} \sum_{c=1}^{C} y_{ic} \log{ \left(    \frac{ \exp(W^{(c)\top} x^{(i)})}{\sum_{j=1}^K \exp(W^{(j)\top} x^{(i)}) } \right)  }
 $$
+</div>
+
 
 ## লিনিয়ার মডেল (Linear Model), সফটম্যাক্স অ্যাক্টিভেশন (Softmax) ও ক্যাটেগরিক্যাল ক্রসএন্ট্রপি (Categorical Cross-entropy)
 
@@ -235,9 +248,14 @@ $$
 ![image_classification](http://cs231n.github.io/assets/imagemap.jpg)
 
 এখানে দেখা যাচ্ছে, ইনপুট ইমেজ কে একটা Weight Matrix এর সাথে ম্যাট্রিক্স মাল্টিপ্লিকেশন করা হচ্ছে এবং তার স্কোর ডিফাইন করা হচ্ছে। এই অপারেশন টা হল, 
+<div class="equation">
+
 $$
 f(x, W, b) = Wx_{i} +b_{i}
 $$
+
+</div>
+
 এখানে আমরা তিনটা স্কোর পাচ্ছি, কিন্তু মাল্টিক্লাস রিগ্রেশনের ক্ষেত্রে একে অবশ্যই Probability তে কনভার্ট করতে হবে। আর সেটার জন্য আমরা জানি Softmax অ্যাপ্লাই করলেই হবে। 
 
 **এখানে দেখতে পাচ্ছি `Dog score` বেশি দিচ্ছে, `Cat score` এর তুলনায়। আমাদের Objective হল `Weight Matrix` এর মান এমন হতে হবে, যেন এটি `Cat image` এর জন্য High score দেয় এবং বাকি ক্লাসের জন্য Low score দেয়, তেমনি `Dog` এর ক্ষেত্রে শুধু Dog এ High Score দিবে এবং বাকিদের Low score দিবে।**
@@ -307,9 +325,11 @@ array([[ 1.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
 ## Softmax এর Numerical Unstability ও ইম্প্লিমেন্টেশন
 
 সফটম্যাক্সের সমীকরণ হল এটা, 
+<div class="equation">
 $$
 \text{softmax}(x_{j}) = \frac{ e^{x_{j}} } {\sum_{i=1}^{k}  e^{x_{k}} }
 $$
+</div>
 এবং তার পাইথন ইম্প্লিমেন্টেশন হল এটা, 
 
 ```python
@@ -330,6 +350,7 @@ Out[29]: array([  0.,   0.,  nan])
 ```
 
 তাহলে এইরকম Numerical Unstability যাতে না হয় সেকারণে আমাদের এক্স্ট্রা কিছু স্টেপ নিতে হবে।
+<div class="equation">
 $$
 \begin{align}
 \text{softmax}(x_{j} + C) &= \frac{ e^{x_{j} + C} } { \sum_{i=1}^{k}  e^{x_{i} + C} } \\
@@ -337,6 +358,7 @@ $$
 &= \text{softmax}(x_{j})
 \end{align}
 $$
+</div>
 এখানে $$C$$ এর মান নিব $$C = -\max_{i} x_{i} $$ 
 
 ## Softmax এর Stable ইম্প্লিমেন্টেশন
@@ -395,10 +417,11 @@ def predict(X, W):
 ## ক্রস-এন্ট্রপি ফাংশন ইম্প্লিমেন্টেশন
 
 Cross Entropy এর সমীকরণ এটা, 
+<div class="equation">
 $$
 \mathcal{L(y, \hat{y})} = - \frac{1}{N}  \sum_{i=1}^{N} \sum_{c=1}^{C} y_{ic} \log{  \hat{y_{ic}} }
 $$
-
+</div>
 ```python
 # Here y_true and y_pred are both one_hot encoded
 def categorical_crossentropy(y_true, y_pred):
@@ -421,9 +444,11 @@ Out[66]: 2.3025850929940455
 ## গ্রেডিয়েন্ট কম্পিউটেশন ও ইম্প্লিমেন্টেশন
 
 গ্রেডিয়েন্ট কম্পিউট করা কঠিনতম কাজগুলার মধ্য়ে একটি। কম্পিউট করার আগে স্পয়লার দেয়া যাক। আর এই অধ্যায়ের শেষের দিকে প্রমাণ দিয়ে দেব। 
+<div class="equation">
 $$
 \nabla_{W^{(k)}} \mathcal{L} (W) =  \sum_{i=1}^{m}{ \left[ x^{(i)} \left( P(y^{(i)} = k | x^{(i)}; W) - 1\{ y^{(i)} = k\}   \right) \right]  }
 $$
+</div>
 এই সামেশন ও মাল্টিপ্লিকেশন একত্রে ম্যাট্রিক্স এর ডট প্রোডাক্ট হিসেবে ক্যালকুলেট করা যায়, 
 
 ```python
