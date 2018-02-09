@@ -716,7 +716,7 @@ $$
 $$
 সবশেষে, 
 $$
-\frac{ \partial \mathcal{L} (y, \hat{y}) }{\partial W} = \frac{ \mathcal{L} (y, \hat{y}) }{\partial Z} . \frac{ \partial Z }{ \partial W } \\
+\frac{ \partial \mathcal{L} (y, \hat{y}) }{\partial W} = \frac{ \partial \mathcal{L} (y, \hat{y}) }{\partial Z} . \frac{ \partial Z }{ \partial W } \\
 = (\hat{Y} - Y) \times X
 $$
 (ম্যাট্রিক্স ফরম্যাটে)
