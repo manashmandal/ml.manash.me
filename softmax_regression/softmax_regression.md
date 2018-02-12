@@ -689,7 +689,7 @@ Z  = WX \\
 $$
 পার্শিয়াল ডেরিভেটিভ এর চেইন রুল অনুযায়ী, 
 $$
-\frac{ \partial \mathcal{L} (y, \hat{y}) }{\partial W} = \frac{ \mathcal{L} (y, \hat{y}) }{\partial Z} . \frac{ \partial Z }{ \partial W }
+\frac{ \partial \mathcal{L} (y, \hat{y}) }{\partial W} = \frac{ \partial \mathcal{L} (y, \hat{y}) }{\partial Z} . \frac{ \partial Z }{ \partial W }
 $$
 এখন $$Z$$ এর সাপেক্ষে $$\mathcal{L} (y, \hat{y})$$ এর ডেরিভেটিভ ক্যালকুলেট করলেই হবে,
 $$
