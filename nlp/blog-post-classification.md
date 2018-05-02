@@ -213,6 +213,8 @@ print(words)
 
 ```python
 def sentence_to_wordlist(sentence, filters="!\"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n?,।!‍.0123456789০১২৩৪৫৬৭৮৯"):
+    # for english
+    sentence = sentence.lower()
     translate_dict = dict((c, ' ') for c in filters)
     translate_map = str.maketrans(translate_dict)
     return sentence.translate(translate_map).split()
