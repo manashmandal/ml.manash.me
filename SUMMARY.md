@@ -28,6 +28,9 @@
    * [প্র্যাক্টিক্যাল লজিস্টিক রিগ্রেশন : স্ক্র্যাচ থেকে মডেল তৈরি ও ডিজিট রিকগনাইজেশন](logistic_regression/practical_logistic_regression.md)
 * মাল্টিক্লাস রিগ্রেশন
    * [মাল্টিক্লাস বা সফটম্যাক্স রিগ্রেশন: ডিজিট ক্লাসিফিকেশন](softmax_regression/softmax_regression.md)
+   
+* ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং (NLP)
+   * [বাংলা ব্লগ পোস্ট ক্লাসিফিকেশন](nlp/blog-post-classification.md)
 
 * পরিশিষ্ট
    * [Numpy পরিচিতি](supplements/numpy_primer.md)
