@@ -70,9 +70,7 @@
    * লিনিয়ার রিগ্রেশনে গ্রেডিয়েন্ট ডিসেন্ট
    * চলবে
 
-## অধ্যায়সমূহ
-
-# Summary
+## বিষয়বস্তু
 
 * [ভূমিকা](README.md)
 * [মেশিন লার্নিং পরিচিতি](ml_intro.md)
@@ -183,7 +181,7 @@
 ## লেখক সম্পর্কে
 
 ### [মানস](http://mandal.manash.me)
-Research Assistant, Ice9 Labs
+Research Assistant - Data Science, ShopUp
 
 ####  [ওয়েবসাইট](http://www.manash.me) | [ব্লগ](https://blog.manash.me) | [ফেসবুক](https://www.facebook.com/manash.me) | [ইমেইল](mailto:manashmndl@gmail.com) | [গিটহাব](http://github.manash.me) 
 
